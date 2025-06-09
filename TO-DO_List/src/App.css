@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+   font-family: "M PLUS Rounded 1c", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+}
+.container
+{
+  background-color: rgb(222, 205, 184);
+  width: 50vw;
+  justify-self: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top:15vh;
+}
+h2{
+  text-align: center;
+  margin:25px;
+}
+form
+{
+  justify-self: center;
+  background-color: antiquewhite;
+  margin: 6px;
+  border-radius: 10px;
+}
+.input
+{
+ width: 65%;
+ }
+ 
+.input input 
+{
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+  margin: 10px 10px;
+  padding:5px;
+ 
+}
+
+tr
+{
+  padding: 10px;
+}
+th
+{
+  text-align: center;
+  font-size: large;
+ background: none;
+}
+tbody
+{
+  text-align: center;
+  font-size: medium;
+}
+.add
+{
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+  margin: 10px 10px;
+  width:100px;
+  background-color: #eab72a;
+}
+
+.todo {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  background-color: none;
+  overflow-y: scroll;
+
+}
+
+.todo th,
+.todo td,
+.todo tr {
+  border: none;
+  padding: 10px;
+}
+
+.todo thead {
+  background-color: #d39751;
+  position: sticky;
+  top: 0;
+
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.button
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.table-main {
+  max-height: calc(48px * 5 + 40px); /* 5 rows × 48px row height + 40px header */
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 20px;
+  scrollbar-width: none;
+}
+.table-container::-webkit-scrollbar {
+  display: none;              
+}
